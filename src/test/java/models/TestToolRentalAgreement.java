@@ -57,8 +57,8 @@ public class TestToolRentalAgreement {
                 Tool type: Jackhammer
                 Tool brand: Ridgid
                 Rental days: 9
-                Checkout date: 07/02/2015
-                Due date: 07/11/2015
+                Checkout date: 07/02/15
+                Due date: 07/11/15
                 Daily rental charge: $2.99
                 Charge days: 5
                 Pre-discount charge: $14.95

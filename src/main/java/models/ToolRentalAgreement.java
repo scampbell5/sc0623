@@ -38,7 +38,7 @@ public class ToolRentalAgreement {
      */
     private String getFormattedDate(LocalDate date) {
         if (date != null) {
-            return date.format(DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+            return date.format(DateTimeFormatter.ofPattern("MM/dd/yy"));
         }
         return null;
     }
