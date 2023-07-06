@@ -1,4 +1,5 @@
-# SC0623
+# SC0723
+[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://scampbell5.github.io/sc0723/javadoc/)
 
 Programming demo implemented in Java.
 
