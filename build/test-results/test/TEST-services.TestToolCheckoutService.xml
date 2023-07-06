@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="services.TestToolCheckoutService" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-07-06T20:56:39" hostname="Seans-MBP.lan" time="0.038">
+  <properties/>
+  <testcase name="test1()" classname="services.TestToolCheckoutService" time="0.012"/>
+  <testcase name="test2()" classname="services.TestToolCheckoutService" time="0.007"/>
+  <testcase name="test3()" classname="services.TestToolCheckoutService" time="0.001"/>
+  <testcase name="test4()" classname="services.TestToolCheckoutService" time="0.002"/>
+  <testcase name="test5()" classname="services.TestToolCheckoutService" time="0.001"/>
+  <testcase name="test6()" classname="services.TestToolCheckoutService" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
