@@ -80,15 +80,15 @@ public class ToolRentalAgreement {
     /**
      * Print the rental agreement to console.
      * <p>
-     * Tool code: LADW
-     * Tool type: Ladder
-     * ...
-     * Final charge: $9.99
+     * <br>Tool code: LADW
+     * <br>Tool type: Ladder
+     * <br>...
+     * <br>Final charge: $9.99
      * <p>
-     * Following types are formatted as such:
-     * Date - mm/dd/yy
-     * Currency - $9,999.99
-     * Percent - 99%
+     * <br>Following types are formatted as such:
+     * <br>Date - mm/dd/yy
+     * <br>Currency - $9,999.99
+     * <br>Percent - 99%
      */
     public void print() {
         StringBuilder stringBuilder = new StringBuilder();
@@ -113,8 +113,8 @@ public class ToolRentalAgreement {
      * Private helper method to create a StringBuilder with the label tex, value and an optional new line if existing
      * string builder has any existing characters
      * <p>
-     * ex (Empty String Builder).       Tool code: LADW
-     * ex (Non-empty String Builder).   \nTool code: LADW
+     * <br>ex (Empty String Builder).       Tool code: LADW
+     * <br>ex (Non-empty String Builder).   \nTool code: LADW
      *
      * @param labelText           - text of label
      * @param value               - value of the field
