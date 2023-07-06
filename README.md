@@ -31,8 +31,8 @@ Tool code: LADW
 Tool type: Ladder
 Tool brand: Werner
 Rental days: 3
-Checkout date: 07/02/2015
-Due date: 07/05/2015
+Checkout date: 07/02/15
+Due date: 07/05/15
 Daily rental charge: $1.99
 Charge days: 2
 Pre-discount charge: $3.98
@@ -46,8 +46,8 @@ Tool code: CHNS
 Tool type: Chainsaw
 Tool brand: Stihl
 Rental days: 5
-Checkout date: 07/02/2020
-Due date: 07/07/2020
+Checkout date: 07/02/20
+Due date: 07/07/20
 Daily rental charge: $1.49
 Charge days: 3
 Pre-discount charge: $4.47
@@ -61,8 +61,8 @@ Tool code: JAKD
 Tool type: Jackhammer
 Tool brand: DeWalt
 Rental days: 6
-Checkout date: 09/03/2015
-Due date: 09/09/2015
+Checkout date: 09/03/15
+Due date: 09/09/15
 Daily rental charge: $2.99
 Charge days: 3
 Pre-discount charge: $8.97
@@ -76,8 +76,8 @@ Tool code: JAKR
 Tool type: Jackhammer
 Tool brand: Ridgid
 Rental days: 9
-Checkout date: 07/02/2015
-Due date: 07/11/2015
+Checkout date: 07/02/15
+Due date: 07/11/15
 Daily rental charge: $2.99
 Charge days: 5
 Pre-discount charge: $14.95
@@ -91,8 +91,8 @@ Tool code: JAKR
 Tool type: Jackhammer
 Tool brand: Ridgid
 Rental days: 4
-Checkout date: 07/02/2020
-Due date: 07/06/2020
+Checkout date: 07/02/20
+Due date: 07/06/20
 Daily rental charge: $2.99
 Charge days: 1
 Pre-discount charge: $2.99
