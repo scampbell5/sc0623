@@ -41,8 +41,8 @@ public class ToolCheckoutService {
         Tool toolToRent = toolService.getTool(toolCode)
                 .orElseThrow(() -> new NotFoundException("Tool code entered must be a valid tool code, could not find matching tool."));
 
-        ToolTypeCharge toolTypeCharge = toolTypeChargeService.getToolTypeCharge(toolToRent.getType())
-                .orElseThrow(() -> new SystemErrorException("Could not find tool type charge for the specific tool. A tool type charge may not have been setup for tool type: " + toolToRent.getType()));
+        ToolTypeCharge toolTypeCharge = toolTypeChargeService.getToolTypeCharge(toolToRent.getToolType())
+                .orElseThrow(() -> new SystemErrorException("Could not find tool type charge for the specific tool. A tool type charge may not have been setup for tool type: " + toolToRent.getToolType()));
 
         LocalDate dueDate = checkoutDate.plusDays(rentalDays);
 
@@ -54,7 +54,7 @@ public class ToolCheckoutService {
         return ToolRentalAgreement
                 .builder()
                 .toolCode(toolCode)
-                .toolType(toolToRent.getType())
+                .toolType(toolToRent.getToolType())
                 .toolBrand(toolToRent.getBrand())
                 .rentalDays(rentalDays)
                 .checkoutDate(checkoutDate)
