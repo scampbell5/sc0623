@@ -28,7 +28,7 @@ public class ToolService {
      * @param toolCode - code of the tool
      * @return - an optional that contains a tool if found for the provided tool code.
      */
-    public Optional<Tool> getToolByToolCode(String toolCode) {
+    public Optional<Tool> getTool(String toolCode) {
 
         if (StringUtils.isBlank(toolCode)) {
             throw new IllegalArgumentException("Tool code cannot be blank when retrieving tool by tool code.");

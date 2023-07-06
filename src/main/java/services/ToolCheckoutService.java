@@ -38,7 +38,7 @@ public class ToolCheckoutService {
 
         validate(toolCode, rentalDays, discountPercent, checkoutDate);
 
-        Tool toolToRent = toolService.getToolByToolCode(toolCode)
+        Tool toolToRent = toolService.getTool(toolCode)
                 .orElseThrow(() -> new NotFoundException("Tool code entered must be a valid tool code, could not find matching tool."));
 
         ToolTypeCharge toolTypeCharge = toolTypeChargeService.getToolTypeCharge(toolToRent.getType())
